@@ -261,3 +261,43 @@ nav a {
   transform: translateY(-15px);
   transition: 0.3s;
 }
+
+/* -------------------- STATISTICS -------------------- */
+
+.stats-row {
+  max-width: 1150px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px 0 40px;
+  gap: 10px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.stat-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-icon img {
+  width: 45px;
+  height: 45px;
+}
+
+.stat-number {
+  font-size: 32px;
+  font-weight: 800;
+  color: #f8f8f8;
+  line-height: 1.1;
+}
+
+.stat-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #f8f8f8;
+}
