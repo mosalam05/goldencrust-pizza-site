@@ -126,3 +126,138 @@ nav a {
   font-weight: bold;
   text-decoration: none;
 }
+
+/* -------------------- Sections -------------------- */
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin: 50px 0 20px;
+  color: #f7d37c;
+}
+
+/* -------------------- Offers -------------------- */
+.offers-section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.offers-header {
+  max-width: 720px;
+  margin: 0 auto 30px;
+}
+
+.offers-header .eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #ffca4f;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.offers-track {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 10px 5px;
+}
+
+@media (max-width: 1024px) {
+  .offers-track {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .offers-track {
+    grid-template-columns: 1fr;
+  }
+}
+
+.offer-card {
+  background: linear-gradient(145deg, #161616, #111);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(247, 211, 124, 0.15);
+}
+
+.offer-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.offer-content {
+  padding: 16px;
+  text-align: left;
+}
+
+.offer-content h3 {
+  color: #f7d37c;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.offer-content p {
+  color: #f2e9d8;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.offer-content .price {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #d4a017;
+  color: #111;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.price del {
+  color: #8c0c0c;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.offer-card:hover {
+  transform: translateY(-20px);
+  transition: 0.3s;
+}
+
+/* -------------------- MENU GRID -------------------- */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  padding: 20px 70px 60px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 12px #0005;
+  color: #f2d8d8;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  color: #f7d37c;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+  transition: 0.3s;
+}
