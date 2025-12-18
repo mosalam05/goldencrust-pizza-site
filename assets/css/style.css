@@ -1,3 +1,22 @@
+/* ---------- Fonts ---------- */
+@font-face {
+  font-family: "Nexa Rust Sans";
+  src: url("../fonts/NexaRustSansDemo-Black-BF63bf55572b854.otf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Bangers";
+  src: url("../fonts/Bangers-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "De Latto";
+  src: url("../fonts/DeLatto.ttf") format("truetype");
+  font-weight: normal;
+}
+
 /* -------------------- General -------------------- */
 * {
   margin: 0;
