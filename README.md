@@ -24,3 +24,8 @@ git clone https://github.com/mosalam05/GoldenCrust-Pizza-Site.git
 ```
 2. Open index.html in your browser.
 3. Enjoy exploring the website!
+
+## 🌐 Live Demo
+
+If you want to view the website online, visit:  
+https://mosalam05.github.io/GoldenCrust-Pizza-Site/
